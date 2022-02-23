@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="5dp">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#7C7C7C"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:layout_gravity="center|start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Name"
+            android:id="@+id/course"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:cardBackgroundColor="@color/colorOne"
+            app:cardCornerRadius="17.5dp"
+            android:layout_gravity="center|end">
+            <TextView
+                android:id="@+id/grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_medium"/>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#7C7C7C"/>
+
+
+</LinearLayout>
